@@ -22,7 +22,7 @@ To solve this, GoldenVelocityUtils works synchronously with our companion plugin
 
 **GoldenChatBridge** is installed on your backend servers (your gamemodes like Lobby, Survival, BedWars, etc.). It stealthily receives proxy messages and handles the player's chat directly from Spigot/Paper to forward them back to your Velocity proxy without breaking the player's encrypted signature security.
 
-👉 **[Link to GoldenChatBridge Repository or Download]((PUT_REPO_LINK_HERE))** 👈
+👉 **[Link to GoldenChatBridge Repository or Download](https://github.com/pefati/GoldenChatBridge)** 👈
 
 *Installation Note: Make sure to install GoldenChatBridge on your backend servers so the proxy messaging can flow freely without causing disconnects.*
 
