@@ -50,5 +50,3 @@ To solve this, GoldenVelocityUtils works synchronously with our companion plugin
 | `/gbu reload` | `gbu.admin.cmd` | Live-reloads all YAML plugin configurations. |
 
 ---
-
-*Developed with ❤️ for modern Velocity networks.*
