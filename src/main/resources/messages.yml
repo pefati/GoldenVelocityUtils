@@ -1,0 +1,121 @@
+prefix: "&6&lGoldenBungee &8» &7"
+reload: "&aConfiguration reloaded!"
+no-permission: "&cYou do not have permission to use this command."
+player-not-found: "&cPlayer not found."
+maintenance-kick: "&cThe server is currently in maintenance mode."
+maintenance-enabled: "&aMaintenance mode enabled."
+maintenance-disabled: "&cMaintenance mode disabled."
+maintenance-added: "&aAdded %player% to the whitelist."
+maintenance-removed: "&cRemoved %player% from the whitelist."
+maintenance-list-header: "&6&lMaintenance Whitelist &7(&e%count%&7):"
+maintenance-list-empty: "&cThe whitelist is empty."
+find-message: "&e%player% &7is currently on &a%server%"
+goto-message: "&7Sending you to &e%player%&7..."
+already-connected: "&cYou are already connected to this server."
+alert-format: "&8[&4&lALERT&8] &f%message%"
+staffchat-format: "&8[&b&lSC&8] %player% &8» &f%message%"
+adminchat-format: "&8[&c&lAC&8] %player% &8» &f%message%"
+
+report-broadcast-header: "&8&m--------------------------------"
+report-broadcast-title: "&6&lNew Report from %player%!"
+report-broadcast-target: "&7Reported: &c%target%"
+report-broadcast-reason: "&7Reason: &f%reason%"
+report-broadcast-action: "&b&nClick to teleport"
+report-broadcast-footer: "&8&m--------------------------------"
+
+report-sent:
+  - "&8&m--------------------------------"
+  - "&a&lReport Sent"
+  - "&7Thank you for helping keep the server safe."
+  - "&8&m--------------------------------"
+
+stream-broadcast:
+  - "&8&m----------------------------------------------------------------"
+  - "&8[&5&lSTREAM&8] &d&l%player% &f&lIS LIVE! <click>&b&lCLICK HERE TO JOIN!</click>"
+  - "&8&m----------------------------------------------------------------"
+
+stream-hover-text: "&7Click to watch &6%player%'s stream"
+
+discord: "&bJoin our Discord: &nhttps://discord.gg/example"
+twitter: "&bFollow us on Twitter: &nhttps://twitter.com/example"
+helpop-format: "&4Helpop &8» &c%player%&8: &f%message%&7 (&e%server%&7)"
+helpop-sent: "&aHelpop sent to staff."
+
+staff-join: "&8[&a+&8] &7%player%"
+staff-quit: "&8[&c-&8] &7%player%"
+staff-switch: "&8[&e>&8] &7%player% &8» &e%server%"
+
+# Command Errors & Usages
+only-players: "&cOnly players can use this command."
+usage-stream: "&cUsage: /stream <url>"
+usage-report: "&cUsage: /report <user> <reason>"
+usage-helpop: "&cUsage: /helpop <message>"
+usage-maintenance: "&cUsage: /maintenance <on/off/add/remove/list> [player]"
+usage-maintenance-add: "&cUsage: /maintenance add <player>"
+usage-maintenance-remove: "&cUsage: /maintenance remove <player>"
+usage-goto: "&cUsage: /goto <player>"
+usage-srv: "&cUsage: /srv <server>"
+usage-alert: "&cUsage: /alert <message>"
+
+# Server Connection
+server-not-found: "&cServer &e%server% &cnot found."
+connecting: "&aConnecting to &e%server%&a..."
+
+# Staff List
+staff-list:
+  - "&8&m--------------------------------"
+  - "&6&lStaff Online &7(%count%)"
+  - ""
+  - "%list%"
+  - "&8&m--------------------------------"
+
+# Network List
+network-list:
+  - "&8&m--------------------------------"
+  - "&6&lNetwork List &7(%count% players)"
+  - ""
+  - "%servers%"
+  - "&8&m--------------------------------"
+network-list-format: "&e%server%&7: &f%count%"
+
+# Chat Channels
+staffchat-enabled: "&aStaffChat enabled."
+staffchat-disabled: "&cStaffChat disabled."
+adminchat-enabled: "&aAdminChat enabled."
+adminchat-disabled: "&cAdminChat disabled."
+
+# Admin & Staff Commands
+usage-find: "&cUsage: /find <player>"
+usage-stafftime: "&cUsage: /stafftime <player>"
+stafftime-message: "&e%player% &7has been online for: &a%time%"
+time-format-hours: "%hours% hours, %minutes% minutes"
+time-format-minutes: "%minutes% minutes, %seconds% seconds"
+time-format-seconds: "%seconds% seconds"
+
+# Help Menu
+help-header: "&8&m--------------------------------"
+help-title: "&6&lGoldenBungeeUtils Help"
+help-footer: "&8&m--------------------------------"
+help-command-format: "&e%command% &7- %description%"
+help-hover: "&eClick to execute"
+
+# Command Descriptions
+help-desc-reload: "Reloads the configuration."
+help-desc-stafftime: "Check staff online time."
+help-desc-alert: "Broadcast an alert."
+help-desc-maintenance: "Manage maintenance mode."
+help-desc-find: "Find a player's server."
+help-desc-goto: "Teleport to a player."
+help-desc-srv: "Connect to a server."
+help-desc-stafflist: "List online staff."
+help-desc-staffchat: "Toggle staff chat."
+help-desc-adminchat: "Toggle admin chat."
+help-desc-blist: "Show network player counts."
+help-desc-report: "Report a player."
+help-desc-stream: "Announce a stream."
+help-desc-helpop: "Ask staff for help."
+help-desc-discord: "Get Discord link."
+help-desc-twitter: "Get Twitter link."
+
+# Announcement
+announcement-open: "&7Click to open link"

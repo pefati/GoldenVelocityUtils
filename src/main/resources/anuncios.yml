@@ -1,0 +1,15 @@
+message1:
+  interval: 15
+  lines:
+    - "&8&m-----------------"
+    - "&aVisit our website at &nwww.example.com"
+    - "&8&m-----------------"
+message2:
+  interval: 10
+  link:
+    url: "https://discord.gg/example"
+    text: "&b&nDiscord Server!"
+  lines:
+    - "&8&m-----------------"
+    - "&bJoin our <Link>"
+    - "&8&m-----------------"

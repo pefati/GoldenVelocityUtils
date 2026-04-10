@@ -1,0 +1,14 @@
+{
+  "id": "goldenvelocityutils",
+  "name": "GoldenVelocityUtils",
+  "version": "1.0.0",
+  "description": "Utilities plugin for Velocity networks",
+  "authors": ["pefati"],
+  "main": "Golden.Velocity.Main",
+  "dependencies": [
+    {
+      "id": "luckperms",
+      "optional": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+maintenance:
+  enabled: false
+  whitelist:
+
+staff-time:
+  enabled: true
+
+servers:
+  lobby: "lobby"
+  survival: "survival"
+
+motd:
+  enabled: true
+  lines:
+    - "&6GoldenBungee Server\n&eWelcome!"
+    - "&bAnother random MOTD"
